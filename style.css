@@ -1,0 +1,230 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calculator{
+    margin: auto;
+    padding: auto;
+}
+.upper,.seven,.four,.one{
+    display: flex;
+}
+
+.clear,.equal,.percent,.div{
+    margin-right:0.9rem ;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0.1rem;
+    padding:0.75rem;
+    height: 7vh;
+    border-radius: 0.2rem;
+}
+.se,.ei,.ni,.mul{
+    margin: 1rem;
+    padding:0.75rem;
+    color: black;
+    background-color:burlywood;
+    border-radius: 0.2rem;
+}
+.fo,.fi,.si,.sub{
+    margin: 1rem;
+    padding:0.75rem;
+    color: black;
+    background-color:burlywood;
+}
+.on,.tw,.th,.add{
+    margin: 1rem;
+    padding:0.75rem;
+    color: black;
+    background-color:burlywood;
+    border-radius: 0.2rem;
+}
+.screen{
+    margin:0.0001rem;
+    padding:0.75rem;
+}
+.sub{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: black;
+    background-color:burlywood;
+}
+.add{
+    padding-left:0.9rem ;
+    padding-right:0.9rem ;
+    color: black;
+    background-color:burlywood;
+}
+.mul{
+    padding-left:0.85rem ;
+    padding-right:0.85rem ;
+    color: black;
+    background-color:burlywood;
+}
+.div{
+    padding-left:1rem ;
+    padding-right:1rem ;
+    color: black;
+    background-color:burlywood;
+}
+.percent,.equal,.clear{
+    color: black;
+    background-color:burlywood;
+}
+
+.on:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 0.4rem;
+    border-style: none;
+}
+.tw:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 0.4rem;
+    border-style: none;
+}
+.th:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 0.4rem;
+    border-style: none;
+}
+.fo:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 0.4rem;
+    border-style: none;
+}
+.fi:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 0.4rem;
+    border-style: none;
+}
+.si:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 0.4rem;
+    border-style: none;
+}
+.se:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 0.4rem;
+    border-style: none;
+}
+.ei:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 0.4rem;
+    border-style: none;
+}
+.ni:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 0.4rem;
+    border-style: none;
+}
+
+
+
+.ans{
+    background-color:burlywood;
+}
+.calculator{
+    color:cadetblue;
+    background-color:rgba(0, 255, 255, 0.27);
+    width: 17rem;
+}
+
+
+
+
+.percent:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 1rem;
+    border-style: none;
+}
+.add:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 1rem;
+    border-style: none;
+}
+.sub:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 1rem;
+    border-style: none;
+}
+.mul:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 1rem;
+    border-style: none;
+}
+.div:hover{
+    background-color: rgba(127, 255, 212, 0.614);
+    color: white;
+    border-radius: 1rem;
+    border-style: none;
+}
+
+.equal:hover{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 0.75rem;
+    border-style: none;
+}
+
+.clear:hover{
+    background-color: rgba(255, 0, 0, 0.714);
+    color: white;
+}
+ */
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  
+  background-color: rgba(202, 127, 255, 0.769);
+  
+}
+
+.row1,.row2,.row3,.row4,.row5{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: rgba(191, 0, 255, 0.78);
+}
+.button:hover{
+    background-color: rgba(0, 21, 255, 0.861);
+    color: white;
+    border-radius: 5px;
+    font-size:medium;
+}
+
+
+
+
